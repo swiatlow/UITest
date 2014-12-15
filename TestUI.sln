@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubApp.WindowsPhone", "HubA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{16379A49-E5C0-49D6-8F01-0AEFD7F97D3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PclTestLibs", "..\PclTestLibs\PclTestLibs\PclTestLibs.csproj", "{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PclTestLibs", "PclTest\PclTestLibs\PclTestLibs.csproj", "{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
