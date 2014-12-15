@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubApp.Windows", "HubApp\Hu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubApp.WindowsPhone", "HubApp\HubApp.WindowsPhone\HubApp.WindowsPhone.csproj", "{1ED126F6-3272-4374-99D2-D0BF4D7DA371}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{16379A49-E5C0-49D6-8F01-0AEFD7F97D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PclTestLibs", "..\PclTestLibs\PclTestLibs\PclTestLibs.csproj", "{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		HubApp\HubApp.Shared\HubApp.Shared.projitems*{a73bca81-f4cc-4e71-bd91-cd9d5b82f0d8}*SharedItemsImports = 13
@@ -72,6 +76,16 @@ Global
 		{1ED126F6-3272-4374-99D2-D0BF4D7DA371}.Release|x86.ActiveCfg = Release|x86
 		{1ED126F6-3272-4374-99D2-D0BF4D7DA371}.Release|x86.Build.0 = Release|x86
 		{1ED126F6-3272-4374-99D2-D0BF4D7DA371}.Release|x86.Deploy.0 = Release|x86
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +94,6 @@ Global
 		{A73BCA81-F4CC-4E71-BD91-CD9D5B82F0D8} = {58ECFD3C-5460-471D-97F7-E19D3BFE1A2C}
 		{D1791C63-D371-495A-B52B-E735F572FEB2} = {58ECFD3C-5460-471D-97F7-E19D3BFE1A2C}
 		{1ED126F6-3272-4374-99D2-D0BF4D7DA371} = {58ECFD3C-5460-471D-97F7-E19D3BFE1A2C}
+		{F2DEAF45-80D0-49AE-A10F-0C10B397E5A8} = {16379A49-E5C0-49D6-8F01-0AEFD7F97D3D}
 	EndGlobalSection
 EndGlobal

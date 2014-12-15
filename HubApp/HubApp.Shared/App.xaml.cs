@@ -16,6 +16,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using HubApp.Common;
+using PclTestLibs;
+using Newtonsoft.Json;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
@@ -38,6 +40,11 @@ namespace HubApp
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+
+            var test = new SomeTest();
+            var json = test.Test();
+            var json2 = JsonConvert.SerializeObject("test 2");
+            json = json2;
         }
 
         /// <summary>
